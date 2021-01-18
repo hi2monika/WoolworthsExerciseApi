@@ -16,8 +16,9 @@
  https://woolworthstest.azurewebsites.net/swagger/index.html
  
 ## TODO :
-- More Validation
-- Custome Exception handling 
-- More unit test.
+- More Validations
+- Custom Exception handling 
+- More unit tests
+- Logging
 
 Note: The sole purpose of the design is to demonstrate that CQRS can handle complex API. However other simpler patterns can be used in simpler use cases.
