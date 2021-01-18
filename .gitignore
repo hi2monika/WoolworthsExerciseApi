@@ -1,0 +1,12 @@
+  
+.vs
+*.suo
+*.user
+bin
+obj
+packages
+WoolworthsExerciseApi/bin/*
+WoolworthsExerciseApi/obj/*
+Test/bin/*
+Test/obj/*
+WoolworthsExerciseApi/Properties/PublishProfiles/*

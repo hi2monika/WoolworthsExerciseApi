@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{AFD7E631-C322-4FDA-8B68-B66B1D85FEAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{11965CB1-E4E6-49DE-B816-017D8E1B8442}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{6B0FCFEF-173D-478A-BA26-A3B78BB464D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WoolworthsExcercise.Api", "WoolworthsExcercise.Api\WoolworthsExcercise.Api.csproj", "{A9E491EE-E3B6-4FF7-B706-448A28A5909D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{AA32A878-8102-46A7-B2BF-1225C39E7356}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WooleWorthsExcercise.Core.Services.Test", "WooleWorthsExcercise.Core.Services.Test\WooleWorthsExcercise.Core.Services.Test.csproj", "{BC891EC1-C077-4874-91FC-86A50AF1F1EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{78377958-4A62-420A-B005-378FD4F643DA}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		readMe.md = readMe.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WoolworthsExcercise.Infrastructure", "WoolworthsExcerciseApi.Infrastructure\WoolworthsExcercise.Infrastructure.csproj", "{8ADCB681-2078-4318-ACFD-0EBBA3FB2CEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WoolworthsExcercise.Core", "WoolworthsExcercise.Core\WoolworthsExcercise.Core.csproj", "{F14D6BD0-6010-45B0-9328-A272C5CC15B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9E491EE-E3B6-4FF7-B706-448A28A5909D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E491EE-E3B6-4FF7-B706-448A28A5909D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E491EE-E3B6-4FF7-B706-448A28A5909D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E491EE-E3B6-4FF7-B706-448A28A5909D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC891EC1-C077-4874-91FC-86A50AF1F1EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC891EC1-C077-4874-91FC-86A50AF1F1EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC891EC1-C077-4874-91FC-86A50AF1F1EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC891EC1-C077-4874-91FC-86A50AF1F1EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ADCB681-2078-4318-ACFD-0EBBA3FB2CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ADCB681-2078-4318-ACFD-0EBBA3FB2CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ADCB681-2078-4318-ACFD-0EBBA3FB2CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ADCB681-2078-4318-ACFD-0EBBA3FB2CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F14D6BD0-6010-45B0-9328-A272C5CC15B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14D6BD0-6010-45B0-9328-A272C5CC15B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14D6BD0-6010-45B0-9328-A272C5CC15B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14D6BD0-6010-45B0-9328-A272C5CC15B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9E491EE-E3B6-4FF7-B706-448A28A5909D} = {AFD7E631-C322-4FDA-8B68-B66B1D85FEAB}
+		{BC891EC1-C077-4874-91FC-86A50AF1F1EB} = {AA32A878-8102-46A7-B2BF-1225C39E7356}
+		{8ADCB681-2078-4318-ACFD-0EBBA3FB2CEB} = {6B0FCFEF-173D-478A-BA26-A3B78BB464D1}
+		{F14D6BD0-6010-45B0-9328-A272C5CC15B8} = {11965CB1-E4E6-49DE-B816-017D8E1B8442}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B3B7132-1013-443D-A0C7-572C1BAD642D}
+	EndGlobalSection
+EndGlobal
