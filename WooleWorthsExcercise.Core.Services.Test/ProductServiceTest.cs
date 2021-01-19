@@ -23,7 +23,7 @@ namespace WooleWorthsExcercise.Core.Services.Test
         {
             _logger = new Mock<ILogger<ProductService>>();
             var productService = new ProductService(_logger.Object);
-            var result = await productService.SortProducts(products, sortOptions, recomendedProducts);
+            var result = await productService.SortProductsAsync(products, sortOptions, recomendedProducts);
             assertion(result);
         }       
         public static IEnumerable<object[]> SortProductsTestCases
